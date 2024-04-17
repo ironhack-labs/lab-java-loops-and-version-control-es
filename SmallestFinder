@@ -1,0 +1,35 @@
+// SmallestFinder.java
+public class SmallestFinder {
+    // Task 2: Find the smallest and second smallest elements and print them
+    public static void findTwoSmallest(int[] array) {
+        // Check if the array has less than 2 elements
+        if (array.length < 2) {
+            System.out.println("Task 2: Array length is less than 2");
+            return;
+        }
+
+        // Initialize the smallest and secondSmallest variables to the maximum possible integer value
+        int smallest = Integer.MAX_VALUE;
+        int secondSmallest = Integer.MAX_VALUE;
+
+        // Iterate through the array
+        for (int num : array) {
+            // If the current number is smaller than the current smallest value
+            if (num < smallest) {
+                // Update the secondSmallest to the current smallest value
+                secondSmallest = smallest;
+                // Update the smallest to the current number
+                smallest = num;
+            }
+            // If the current number is not equal to the current smallest value and is smaller than the current secondSmallest value
+            else if (num < secondSmallest && num != smallest) {
+                // Update the secondSmallest to the current number
+                secondSmallest = num;
+            }
+        }
+
+        // Print the smallest and second smallest elements
+        System.out.println("Task 2: Smallest element: " + smallest);
+        System.out.println("Task 2: Second smallest element: " + secondSmallest);
+    }
+}
