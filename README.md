@@ -3,7 +3,7 @@
 
 # LAB | Java Bucles y Control de Versiones
 
-## Introducción
+## Introducción .
 
 Acabamos de aprender cómo iterar sobre arreglos de diferentes maneras de acuerdo a las necesidades, así que ahora practiquemos un poco.
 
