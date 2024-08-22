@@ -27,14 +27,18 @@ Una vez que termines la tarea, envía un enlace URL a tu repositorio o tu solici
 ### Tarea 1
 
 Escribe un método Java que devuelva la diferencia entre los valores más grande y más pequeño en un array de enteros. La longitud del array debe ser al menos 1.
+**Código de la Tarea 1**: [ArrayValueDifference.java](https://github.com/waulabs/lab-java-loops-and-version-control-es/blob/main/lab-java-loops-and-version-control/src/main/java/org/alvaro/ironhack/task1/ArrayValueDifference.java)
+
 
 ### Tarea 2 
 
 Escribe un método Java que encuentra los elementos más pequeños y segundos más pequeños de un array dado y los imprime en la consola.
+**Código de la Tarea 2**: [ArraySmallestElements.java](https://github.com/waulabs/lab-java-loops-and-version-control-es/blob/main/lab-java-loops-and-version-control/src/main/java/org/alvaro/ironhack/task2/ArraySmallestElements.java)
 
 ### Tarea 3
 
 Escribe un método Java que calcule el resultado de la siguiente expresión matemática, donde x y y son dos variables que ya han sido establecidas en tu código:
+**Código de la Tarea 3**: [MathExpressionCalculator.java](https://github.com/waulabs/lab-java-loops-and-version-control-es/blob/main/lab-java-loops-and-version-control/src/main/java/org/alvaro/ironhack/task3/MathExpressionCalculator.java)
 
 <br>
 
