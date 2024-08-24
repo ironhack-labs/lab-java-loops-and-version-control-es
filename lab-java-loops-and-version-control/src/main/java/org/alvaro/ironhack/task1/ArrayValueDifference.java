@@ -3,7 +3,6 @@ package org.alvaro.ironhack.task1;
 import org.alvaro.ironhack.util.UserInputHandler;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 /**
  * Esta clase proporciona funcionalidades para calcular la diferencia entre
@@ -12,7 +11,6 @@ import java.util.Scanner;
  * el cálculo varias veces si lo desea.
  */
 public class ArrayValueDifference {
-    private final static Scanner entrada = new Scanner(System.in);
 
     /**
      * Método principal que inicia el programa.

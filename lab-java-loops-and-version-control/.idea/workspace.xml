@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e585ddf-fb2c-4f22-a272-cc1f02ef8a04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alvaro/ironhack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alvaro/ironhack/task1/ArrayValueDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alvaro/ironhack/task2/ArraySmallestElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alvaro/ironhack/task3/MathExpressionCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alvaro/ironhack/util/UserInputHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="4e585ddf-fb2c-4f22-a272-cc1f02ef8a04" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +18,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "waulabs"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/waulabs/lab-java-loops-and-version-control-es.git",
+    "accountId": "7ed21098-a537-43d3-bb3f-4045b15c7d84"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/alvaro/ironhack/task1/ArrayValueDifference.java" root0="SKIP_INSPECTION" />
   </component>
@@ -87,5 +86,16 @@
       <updated>1724320544787</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
