@@ -15,7 +15,7 @@ class myArrayDifference {
         }
         return max - min;
     }
-    public static void main(String[] args) {
+    public static void main() {
         int[] array = {4, 24, 27, 32};
         System.out.println("The difference is: " + differenceMaxMin(array)); //
     }
@@ -28,7 +28,7 @@ class myArrayDifference {
 // y los imprime en la consola.
 class mydifferenceMaxMin {
 
-    public static void main(String[] args) {
+    public static void main() {
         int[] array = {2, 4, 6, 8};
         findMinimum(array);
     }
@@ -36,12 +36,12 @@ class mydifferenceMaxMin {
         int min1 = Integer.MAX_VALUE;
         int min2 = Integer.MAX_VALUE;
 
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] < min1) {
+        for (int number : numbers) {
+            if (number < min1) {
                 min2 = min1;  // update min2 before changing min1
-                min1 = numbers[i];
-            } else if (numbers[i] < min2 && numbers[i] != min1) {
-                min2 = numbers[i];
+                min1 = number;
+            } else if (number < min2 && number != min1) {
+                min2 = number;
             }
         }
 
@@ -66,7 +66,7 @@ class myMathExpression {
 
     //
     }
-    public static void main(String[] args) {
+    public static void main() {
         // sample
         double x = 32.0; //
         double y = 3.0; //
