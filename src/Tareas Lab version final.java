@@ -71,6 +71,6 @@ class myMathExpression {
         double x = 32.0; //
         double y = 3.0; //
         double result = calculateExpression(x, y);
-        System.out.println("the formula answer is " + result);
+        System.out.println(STR."the formula answer is \{result}");
     }
 }
