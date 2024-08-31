@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] numeros = {10, 3, 5, 6};
+        int diferencia = calcularDiderencia(numeros);
+        System.out.println(" La diferencia ente el digito mas grande i el mas pequeño es: " + diferencia);
+    }
+
+    public static int calcularDiderencia(int[] arr) {
+        if (arr == null || arr.length != 4)
+            throw new IllegalArgumentException(" El array tiene que tener exactamente 4 digitos");
+        int max = arr[0];
+        int min = arr[0];
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < max) {
+                min = arr[i];
+            }
+        }
+        return max - min;
+    }
+}
