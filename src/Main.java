@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         int[] numeros = {22, 8, 12, 7, 6, 4, 13};
         numerosMenores(numeros);
+
     }
 
     public static void numerosMenores(int[] array) {
