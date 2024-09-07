@@ -1,5 +1,5 @@
 public class ElementosMinimos {
-    // Método para encontrar los elementos más pequeños y
+    // Método para encontrar los elementos más pequeños y 
     // segundo más pequeños en un array
     public static void encontrarMinimos(int[] array) {
         if (array.length < 2) {
