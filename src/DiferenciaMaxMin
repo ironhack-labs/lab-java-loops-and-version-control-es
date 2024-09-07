@@ -1,0 +1,7 @@
+//TAREA 1
+// Escribe un método Java que devuelva la diferencia entre los valores más grande
+//  y más pequeño en un array de enteros. La longitud del array debe ser al menos 1.
+
+public class DiferenciaMaxMin {
+
+}
